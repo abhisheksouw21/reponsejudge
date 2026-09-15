@@ -7,7 +7,7 @@ import time
 # Since it is in a folder called scripts, we can import it this way:
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), "scripts"))
-from agent_llm_groq_run import classify_message
+from agent_llm import classify_message
 
 st.set_page_config(page_title="Spotify AI Agent", page_icon="🎧", layout="wide")
 
